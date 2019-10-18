@@ -1,0 +1,18 @@
+deu dolmus taxi synchronization
+we are launching deu dolmus taxi application
+5 seats, 1 for driver 4 for student
+taxi stop has 10 taxi and 10 drivers
+taxi drivers sleep while there is no student,empty state idle
+first student wakes driver if taxi is empty and start waiting for others
+if there is a no taxi, student wait a taxi at a stop
+not same taxi work everytime, consider starvation
+2015510012.c
+
+
+solution with mutex and semaphore
+posix library pthread
+
+
+gcc -o one one.c -lpthread
+
+ctrl c end process
